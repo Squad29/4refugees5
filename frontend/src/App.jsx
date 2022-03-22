@@ -1,6 +1,8 @@
+import NavbarGlobal from "./components/NavbarGlobal";
+
 function App() {
   return (
-<h1>App Running</h1>
+    <NavbarGlobal />
   );
 }
 
