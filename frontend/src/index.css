@@ -19,6 +19,11 @@ code {
   box-shadow: none;
 }
 
+.section--title {
+  margin: 6rem 0;
+}
+
+
 :root {
   --cor1: #fff;
   --cor2: #000000;

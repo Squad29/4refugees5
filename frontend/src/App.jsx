@@ -1,7 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import NavbarGlobal from "./components/NavbarGlobal";
-import Home from './pages/Home'
+import Home from "./pages/Home";
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,7 +21,7 @@ function App() {
         <Route path="/admin/destinos" element={<AdmDestino />} />
         <Route path="/admin/hoteis" element={<AdmHotel />} /> */}
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </BrowserRouter>
   );
 }

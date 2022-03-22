@@ -5,7 +5,7 @@ import './styles.css'
 function NavbarGlobal() {
   return (
     <header id="navbarGlobal">
-      <nav className="navbar navbar-expand-lg navbar-light">
+      <nav className="navbar navbar-expand-lg navbar-dark">
         <div className="container-fluid">
           <a className="navbar-brand" href="/" rel="noreferrer">
             4Refugees
