@@ -1,0 +1,43 @@
+#hero--section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100% !important;
+  height: 100vh !important;
+}
+
+#hero--section video {
+  width: 100% !important;
+  height: 100vh !important;
+  background-size: cover;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  filter: brightness(80%);
+  z-index: -1;
+}
+
+#slogan {
+  height: 100px;
+  margin-top: -50px;
+  top: 50vh;
+  position: absolute;
+}
+
+#slogan p {
+  color: #fff !important;
+  font-size: 2em;
+  text-align: center;
+  font-style: italic;
+  text-shadow: 1px 1px 20px var(--cor2);
+  line-height: 1.2em;
+}
+
+
+@media screen and (max-width: 370px) {
+    #slogan p {
+        padding: 0 10px;
+        color: #fff !important;
+    }
+}

@@ -18,3 +18,12 @@ code {
   outline: none;
   box-shadow: none;
 }
+
+:root {
+  --cor1: #fff;
+  --cor2: #000000;
+  --cor3: #f58840;
+  --cor4: #4a403a;
+  --cor5: #b85252;
+  --cor6: #eadede;
+}
