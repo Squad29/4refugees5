@@ -19,7 +19,7 @@ public class RefugiadosService {
 	@Transactional(readOnly=true)
 	public Page<RefugiadosDTO> findRefugi(Pageable pageable) {
 		Page<Refugiados> ref = repository.findAll(pageable);
-		Page<RefugiadosDTO> refDTO = ref.map( x -> new RefugiadosDTO(x));
+		Page<RefugiadosDTO> refDTO = ref.map( x -> new RefugiadoDTO(x));
 		return refDTO;
 	}
 
