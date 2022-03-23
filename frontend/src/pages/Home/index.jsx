@@ -43,7 +43,7 @@ function Home() {
               </p>
             </div>
           </div>
-          <div className="about--content flex-row-reverse" data-aos="fade-left">
+          <div className="about--content flex-row-reverse squad" data-aos="fade-right">
             <div className="img-about">
               <img src={Squad29Logo} alt="" />
             </div>

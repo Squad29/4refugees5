@@ -17,3 +17,7 @@
 .nav-item :hover {
   border-bottom: 1px solid var(--cor3);
 }
+
+.logoNavBar {
+  width: 10rem;
+}
