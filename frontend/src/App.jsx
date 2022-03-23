@@ -17,12 +17,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/refugiado" element={<Refugiado />} />
         <Route path="/contratante" element={<Contratante />} />
-        {/* <Route path="/destinos" element={<Destinos />} />
-        <Route path="/hoteis" element={<Hoteis />} />
-        <Route path="/pacotes" element={<Pacotes />} />
-        <Route path="/admin" element={<Admin />} />
-        <Route path="/admin/destinos" element={<AdmDestino />} />
-        <Route path="/admin/hoteis" element={<AdmHotel />} /> */}
       </Routes>
       <Footer />
     </BrowserRouter>
