@@ -34,18 +34,13 @@ function NavbarGlobal() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/" rel="noreferrer">
+                <a className="nav-link" href="/refugiado" rel="noreferrer">
                   Refugiado
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/" rel="noreferrer">
+                <a className="nav-link" href="/contratante" rel="noreferrer">
                   Contratante
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/" rel="noreferrer">
-                  Vagas
                 </a>
               </li>
               <li className="nav-item">
