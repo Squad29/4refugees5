@@ -1,0 +1,23 @@
+#navbarGlobal {
+  background-color: rgba(41, 41, 41, 0.294) !important;
+  z-index: 1;
+  width: 100%;
+}
+
+#navbarGlobbal nav a {
+  color: var(--cor1) !important;
+}
+
+.nav-link {
+  color: #fff !important;
+  border-bottom: 1px solid transparent;
+  transition: ease-in-out 0.3s;
+}
+
+.nav-item :hover {
+  border-bottom: 1px solid var(--cor3);
+}
+
+.logoNavBar {
+  width: 10rem;
+}

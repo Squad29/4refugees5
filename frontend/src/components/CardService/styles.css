@@ -1,0 +1,43 @@
+.slick-prev::before {
+  color: #000 !important;
+  margin: 0 auto;
+  z-index: 10;
+}
+.slick-next::before {
+  color: #000 !important;
+  margin: 0 auto;
+  z-index: 10;
+}
+
+.slick-arrow {
+  background-color: transparent;
+}
+
+#slick-content {
+  padding: 0 20px;
+}
+
+.card--service img {
+  width: 9rem;
+}
+
+.card--service h3 {
+  font-size: 17px;
+}
+
+@media screen and (max-width: 990px) {
+  .card--service img {
+    width: 8rem;
+    padding: 20px;
+  }
+  .slick-arrow {
+    display: none !important;
+  }
+  .card--service h3 {
+    font-size: 15px;
+  }
+}
+
+.title-artesao {
+  margin-left: 40px;
+}

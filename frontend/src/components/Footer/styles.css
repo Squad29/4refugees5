@@ -1,0 +1,40 @@
+footer {
+  width: 100% !important;
+}
+footer h5 {
+  color: var(--cor4);
+  background-color: var(--cor3);
+  padding: 7px;
+  border-radius: 0.8rem;
+}
+
+footer a {
+  color: var(--cor6) !important;
+}
+
+footer a:hover {
+  color: var(--cor3) !important;
+}
+
+#fot-redeSociais ul {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+}
+
+.fot-paragrafo {
+  color: var(--cor6);
+  font-size: 1em;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 770px) {
+  #fot-logo {
+    width: 10rem;
+  }
+  .fot-paragrafo {
+    color: var(--cor6);
+    font-size: 1em;
+    margin-top: 1rem;
+  }
+}

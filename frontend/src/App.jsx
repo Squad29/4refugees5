@@ -1,6 +1,31 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import NavbarGlobal from "./components/NavbarGlobal";
+import Home from "./pages/Home";
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Footer from "./components/Footer";
+import Refugiado from "./pages/Refugiado";
+import Contratante from "./pages/Contratante";
+
 function App() {
   return (
-<h1>App Running</h1>
+    <BrowserRouter>
+      <NavbarGlobal />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/refugiado" element={<Refugiado />} />
+        <Route path="/contratante" element={<Contratante />} />
+        {/* <Route path="/destinos" element={<Destinos />} />
+        <Route path="/hoteis" element={<Hoteis />} />
+        <Route path="/pacotes" element={<Pacotes />} />
+        <Route path="/admin" element={<Admin />} />
+        <Route path="/admin/destinos" element={<AdmDestino />} />
+        <Route path="/admin/hoteis" element={<AdmHotel />} /> */}
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 }
 
