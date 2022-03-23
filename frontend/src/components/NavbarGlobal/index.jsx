@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-import LogoLarge from '../../assets/img/logoLarge.png'
+import LogoLarge from "../../assets/img/logoLarge.png";
 
-import './styles.css'
+import "./styles.css";
 
 function NavbarGlobal() {
   return (
@@ -10,7 +11,7 @@ function NavbarGlobal() {
       <nav className="navbar navbar-expand-lg navbar-dark">
         <div className="container-fluid">
           <a className="navbar-brand" href="/" rel="noreferrer">
-           <img className="logoNavBar" src={LogoLarge} alt="" />
+            <img className="logoNavBar" src={LogoLarge} alt="" />
           </a>
           <button
             className="navbar-toggler"
@@ -36,14 +37,18 @@ function NavbarGlobal() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/refugiado" rel="noreferrer">
-                  Refugiado
-                </a>
+                <Link to="/refugiado">
+                  <a className="nav-link" href="/refugiado" rel="noreferrer">
+                    Refugiado
+                  </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/contratante" rel="noreferrer">
-                  Contratante
-                </a>
+                <Link to="/contratante">
+                  <a className="nav-link" href="/contratante" rel="noreferrer">
+                    Contratante
+                  </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/" rel="noreferrer">
