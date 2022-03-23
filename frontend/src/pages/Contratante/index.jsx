@@ -5,7 +5,7 @@ import Contratantes from "../../components/ContratanteController";
 
 function Contrante() {
   return (
-    <div className="contratantes--section container mb-5">
+    <div className="contratantes--section container d-flex align-items-center justify-content-center flex-column mb-5">
       <Contratantes />
     </div>
   );

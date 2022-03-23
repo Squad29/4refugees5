@@ -247,7 +247,7 @@ class ListRefugiado extends Component {
     return (
       <div>
         <h2 className="text-center mb-4">Lista de refugiados</h2>
-        <div className="table-wrapper">
+        <div className="table-wrapper container">
           <table className="fl-table">
             <thead>
               <tr>

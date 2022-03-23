@@ -247,7 +247,7 @@ class ListContratante extends Component {
     const { contratantes } = this.props;
 
     return (
-      <div>
+      <div className="container d-flex align-items-center justify-content-center flex-column">
         <h2 className="text-center mb-4">Lista de Contratantes</h2>
         <div className="table-wrapper">
           <table className="fl-table">
@@ -275,7 +275,7 @@ class ListContratante extends Component {
                   <td>{contratante.cpfContratante}</td>
                   <td>{contratante.cpnjContratante}</td>
                   <td>{contratante.seguimentoContratante}</td>
-                  <td>{contratante.bioContratante}</td>
+                  <td >{contratante.bioContratante}</td>
                   <td>{contratante.enderecoContratante}</td>
                   <td>{contratante.bairroContratante}</td>
                   <td>{contratante.cidadeContratante}</td>
