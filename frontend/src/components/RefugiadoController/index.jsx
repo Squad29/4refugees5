@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import PubSub from "pubsub-js";
+import { Link } from "react-router-dom";
 
 import "./styles.css";
 
@@ -218,6 +219,7 @@ class FormRefugiado extends Component {
                 placeholder="Digite o seu valor por hora"
               />
             </div>
+            <Link to="/refugiado">
             <button
               type="submit"
               className="btn btn-primary"
@@ -225,6 +227,7 @@ class FormRefugiado extends Component {
             >
               Gravar
             </button>
+            </Link>
           </form>
         </div>
       </div>
@@ -314,8 +317,8 @@ export default class ProductBox extends Component {
 
   async componentDidMount() {
     const response = await fetch(this.Url);
-    const {content} = await response.json();
-    this.setState({refugiados: content});
+    const { content } = await response.json();
+    this.setState({ refugiados: content });
     console.log(content);
   }
 

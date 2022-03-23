@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import PubSub from "pubsub-js";
 
 import "./styles.css";
+import { Link } from "react-router-dom";
 
 class FormContratante extends Component {
   state = {
@@ -220,13 +221,15 @@ class FormContratante extends Component {
                 placeholder="Digite o seu valor por hora"
               />
             </div>
-            <button
-              type="submit"
-              className="btn btn-primary"
-              onClick={this.create}
-            >
-              Gravar
-            </button>
+            <Link to="/contratante">
+              <button
+                type="submit"
+                className="btn btn-primary"
+                onClick={this.create}
+              >
+                Gravar
+              </button>
+            </Link>
           </form>
         </div>
       </div>
@@ -275,7 +278,7 @@ class ListContratante extends Component {
                   <td>{contratante.cpfContratante}</td>
                   <td>{contratante.cpnjContratante}</td>
                   <td>{contratante.seguimentoContratante}</td>
-                  <td >{contratante.bioContratante}</td>
+                  <td>{contratante.bioContratante}</td>
                   <td>{contratante.enderecoContratante}</td>
                   <td>{contratante.bairroContratante}</td>
                   <td>{contratante.cidadeContratante}</td>
