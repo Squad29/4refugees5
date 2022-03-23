@@ -1,9 +1,7 @@
 #navbarGlobal {
   background-color: rgba(41, 41, 41, 0.294) !important;
   z-index: 1;
-  position: fixed;
   width: 100%;
-  top: 0;
 }
 
 #navbarGlobbal nav a {
